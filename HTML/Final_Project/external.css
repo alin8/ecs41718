@@ -1,0 +1,68 @@
+h1 {
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+ .button {
+    background-color: #16FFBD;
+    border: none;
+    color: #16FFBD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #16FFBD;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    color: #16FFBD;
+}
+
+li:last-child {
+    border-right: #16FFBD;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #16FFBD;
+}
+
+.active {
+    background-color: #16FFBD;
+}
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+
+}
+
+#grad1 {
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+}

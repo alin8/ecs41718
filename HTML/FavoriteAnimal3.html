@@ -12,7 +12,7 @@
 .button {
     background-color: #4CAF50;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -21,9 +21,50 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: blue;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    color: black;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: orange;
+}
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+
+}
 </style>
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color:#ffe6e6">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
   <ul class="navbar-nav">
@@ -41,6 +82,11 @@
     </li>
   </ul>
 </nav>
+<ul style="background-color: orange; padding-top:0px;padding-bottom:0px" class="container-fluid bg-success">
+  <li><a href="https://alin8.github.io/ecs41718/HTML/practice1.html">Practice1</a></li>
+  <li><a href="https://alin8.github.io/ecs41718/HTML/FavoriteAnimal.html">Favorite Anmial</a></li>
+  <li><a href="https://alin8.github.io/ecs41718/HTML/table1.html">Tables</a></li>
+ </ul>
     
 <body>
     <div class="jumbotron" style="background-color:#ffe6e6">
@@ -88,11 +134,6 @@
                     <div>
                         <div>
                             </div>
-                             <ul>
-  <li><a href="https://alin8.github.io/ecs41718/HTML/practice1.html">Practice1</a></li>
-  <li><a href="https://alin8.github.io/ecs41718/HTML/FavoriteAnimal.html">Favorite Anmial</a></li>
-  <li><a href="https://alin8.github.io/ecs41718/HTML/table1.html">Tables</a></li>
-  </ul>
                         </div>
                     </div>
                             </div>
